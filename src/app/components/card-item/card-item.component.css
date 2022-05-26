@@ -1,0 +1,26 @@
+.card-category {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 145, 0);
+  color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 11px 10px 7px 0px #cacaca;
+}
+
+.card-category:hover {
+  box-shadow: 5px 10px #888888;
+  cursor: pointer;
+}
+
+.text-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.text-box > p {
+  text-align: center;
+  margin-block: 0;
+}
